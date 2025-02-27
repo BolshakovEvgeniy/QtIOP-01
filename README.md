@@ -1,26 +1,24 @@
 # QtIOP-01
-# Программа для обработки данных с тепловизора
+# Program for processing data from a thermal imager
 
-## Описание
-Эта программа предназначена для чтения данных с TIOP-01, их обработки и отображения в виде изображений. 
-Данные с тепловизора передаются через последовательный порт (COM-порт) компьютера. 
-Программа использует библиотеку OpenCV для обработки изображений и Qt для создания графического интерфейса.
+## Description
+This program is designed to read data from TIOP-01, process it and display it in a video image.
+Data from the thermal imager is transmitted via the serial port (COM port) of the computer.
+The program uses OpenCV for image processing and Qt for creating a graphical interface.
 
-Собрано с Qt 5.15.15, протестировано под Ubuntu 20.04. Под Win10/11 порт упорно молчит, добиться из него инфы не удалось ни в терминале, ни в этой аппликухе.
+Compiled with Qt 5.15.15, tested under Ubuntu 20.04. Under Win10/11 the port stubbornly keeps silent, I couldn't get any information from it either in the terminal or in this app.
 
 ![](stuff/screen.jpg)
 
-## Функциональность
-1. **Чтение данных**: Программа считывает данные из выбранного последовательного порта.
-2. **Обработка данных**:
-   - Нормализация температурных значений.
-   - Сглаживание изображения с помощью гауссова фильтра.
-   - Применение цветовой карты для визуализации температурных данных.
-   - Фильтрация шума с помощью медианного фильтра.
-   - Улучшение контраста и яркости изображения.
-3. **Отображение**: Обработанные данные отображаются в виде цветового изображения, оригинальные температурные данные — в градациях серого.
+## Functionality
+1. **Reading data**: the program reads data from the serial port.
+2. **Processing data**:
+- Normalization of temperature measurements.
+- Smoothing the image with a Gaussian filter.
+- Using a color map to visualize temperature data.
+- Filtering noise with a median filter.
+- Improving image contrast and brightness.
+3. **Display**: The processed data is presented as a color image, the original temperature data is in grayscale.
 
-## Установка
-TBD
-
-
+## Installation
+to be done
