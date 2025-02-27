@@ -1,3 +1,5 @@
+Read in other languages: [Russian](README.ru.md)
+
 # QtIOP-01
 # Program for processing data from a thermal imager
 
